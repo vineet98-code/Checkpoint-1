@@ -162,6 +162,7 @@ hr{
     font-size: 0;
     box-sizing: border-box;
     box-sizing: content-box;
+    margin-bottom: 60px;
 
 }
 
@@ -187,6 +188,7 @@ hr{
     margin-top: 20px;
     margin-left: 20px;
     padding-bottom: 10px;
+    vertical-align: top;
     
 }
 
@@ -201,6 +203,7 @@ hr{
     width: 300px;
     margin-top: 20px;
     margin-left: 60px;
+    margin-bottom: 60px;
 
 }
 
@@ -232,12 +235,17 @@ p{
     margin-bottom: 9px;
     text-align: left;
 }
-h3{
+.btn{
+    background-color: green;
+    text-decoration: none;
+    border-radius: 20px;
     color: white;
-    margin-top: 10px;
     text-align: center;
-    padding-bottom: 15px;
-}
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}   
 .second-article-img{
     padding: 10px;
     margin: 0 auto;
