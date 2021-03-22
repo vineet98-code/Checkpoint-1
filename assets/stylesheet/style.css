@@ -47,32 +47,46 @@ table {
 	border-spacing: 0;
 }
 
-/* First Style */
+/* Index Style */
+
+body{
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.container{
+    width: 600px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+nav{
+    width:100%;
+    padding: 20px;
+    background-color: #07154c;
+    text-align: center;
+}
 
 .f{
     line-height: 1.5;
     padding: 100px;
-    
-
-    
 }
+
 .f1{
     width:100%;
     padding: 20px;
-
     background-color: #07154c;
     text-align: center;
-    
-
 }
+
 .f2{
     color: green;
     margin: 0 auto;
     text-decoration: none;
     margin-left: 10px;
-     
-    
 }
+
 .f3{
     text-align: center;
     font-size: 36px;
@@ -87,9 +101,11 @@ table {
     font-weight: bolder;
 
 }
+
 .f5{
     text-align: center;
 }
+
 .boxf{
     width: 150px;
     height: 150px;
@@ -114,7 +130,6 @@ table {
     width: 20px;
     height: 20px;
     background-color: #99D8CA;
-
     display: inline-block;
     border-radius: 50%;
     vertical-align: middle;
@@ -142,12 +157,6 @@ hr{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.container{
-    width: 600px;
-    border: 1px solid grey;
-    margin: 0 auto;
-    font-size: 0;
-}
 
 .child-box{
     width: 180px;
@@ -174,28 +183,9 @@ ul li {
    margin-top: 20px;
    text-align: left;
 }
-.bold{
-    text-decoration: solid;
-    font-weight: bolder;
-}
-
-/* second style */
 
 
-
-
-body{
-    line-height: 1.5;
-    margin: 0 auto;
-}
-
-
-nav{
-    width:100%;
-    padding: 20px;
-    background-color: #07154c;
-    text-align: center;
-}
+/* blog style */
 
 .anch{
     color: green;
@@ -234,16 +224,13 @@ img{
 }
 
 .box{
-    /* width: 130px; */
-    /* height: 40px; */
-    padding: 1px 16px;
+   padding: 1px 16px;
     margin: 0 auto;
     margin-bottom: 10px;
     text-align: center;
     display: inline-block;   
     background-color: green;
     border-radius: 20px;
-  
 }
 
 
