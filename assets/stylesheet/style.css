@@ -158,8 +158,6 @@ hr{
     margin-top: 10px;
     margin-bottom: 60px;
     font-size: 0;
-    
-
 }
 
 .box-container{
@@ -170,7 +168,6 @@ hr{
     box-sizing: border-box;
     box-sizing: content-box;
     margin-bottom: 60px;
-
 }
 
 .child-box{
@@ -199,7 +196,6 @@ hr{
     margin-top: 20px;
     vertical-align: top;
     padding: 5px;
-    
 }
 
 .first-article{
@@ -207,7 +203,6 @@ hr{
     width: 40%;
     margin-top: 20px;
     padding: 5px;
-    
 }
 .second-article{
     display: inline-block;
@@ -217,8 +212,6 @@ hr{
     padding: 5px;
 
 }
-
-
 
 img{
     width: 100%;
@@ -256,17 +249,13 @@ p{
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 220px;
-    
-
 }   
 .second-article-img{
     margin: 0 auto;
     width:100%;
-   
 }
 .second-article-anchor{
     margin-right: 255px;
-
 }
 
 
