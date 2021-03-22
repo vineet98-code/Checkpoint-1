@@ -92,9 +92,11 @@ nav{
     font-size: 36px;
     text-transform: capitalize;
     font-weight: bolder;
+    margin-top: 20px;
 }
 .sub-heading{
-    font-size: 36px;
+    font-size: 30px;
+    margin-top: 30px;
     text-align: center;
     padding-bottom: 30px;
     text-transform: capitalize;
@@ -112,7 +114,7 @@ nav{
     background-color: #99D8CA;
     display: inline-block;
     margin-left: 10px;
-    margin-top: 40px;
+    margin-top: 5px;
     border: 20px solid black;
     outline: 10px solid #5873E2;
     outline-offset: -20px;
@@ -122,6 +124,7 @@ nav{
 .circle-container{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 .circle{
     width: 20px;
@@ -149,10 +152,14 @@ nav{
 }
 
 hr{
-    width: 600px;
-    border-style: dotted;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    width: 700px;
+    border-bottom: 2px dashed gray;
+    border-top: none;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 0;
+    
+
 }
 
 .box-container{
@@ -170,7 +177,7 @@ hr{
     width: 200px;
     height: 180px;
     margin: 10px;
-    background-color:lightblue;
+    background-color:#dae0fa;
     display: inline-block;
 }
 .border{
@@ -180,30 +187,34 @@ hr{
 }
 
 /* blog style */
-
+ .blog-section{
+    text-align: center;
+    margin:0 auto;
+    width:60%;
+} 
 
 .first-article-pic{
     display: inline-block;
-    width: 350px;
+    width: 40%;
     margin-top: 20px;
-    margin-left: 20px;
-    padding-bottom: 10px;
     vertical-align: top;
+    padding: 5px;
     
 }
 
 .first-article{
     display: inline-block;
-    width: 300px;
+    width: 40%;
     margin-top: 20px;
-    margin-left: 90px;
+    padding: 5px;
+    
 }
 .second-article{
     display: inline-block;
-    width: 300px;
+    width: 40%;
     margin-top: 20px;
-    margin-left: 60px;
     margin-bottom: 60px;
+    padding: 5px;
 
 }
 
@@ -211,7 +222,7 @@ hr{
 
 img{
     width: 100%;
-    margin-left: 50px;
+    
 }
 
 .box{
@@ -240,16 +251,22 @@ p{
     text-decoration: none;
     border-radius: 20px;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-right: 220px;
+    
 
 }   
 .second-article-img{
-    padding: 10px;
     margin: 0 auto;
-    width:350px;
+    width:100%;
+   
+}
+.second-article-anchor{
+    margin-right: 255px;
+
 }
 
 
